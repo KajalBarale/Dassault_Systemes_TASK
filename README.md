@@ -3,36 +3,37 @@
 This project was completed as part of an assignment provided by Dassault Systèmes.
 
 **Task 1: Analysis of Healthcare Data**
-Architecture:
+**
+Architecture:**
 
-Data Loading:
+1) Data Loading:
 Utilized Python's pandas library to load the healthcare data from a CSV file into a DataFrame.
 
-Data Exploration:
+2) Data Exploration:
 Performed exploratory data analysis (EDA) to understand the dataset's structure, distribution, and statistics.
 
-Data Visualization:
+3) Data Visualization:
 Created visualizations using the seaborn library to analyze the correlation between Blood Group Type, Gender, and Medical Condition.
 
-Data Analysis:
+4) Data Analysis:
 Calculated additional insights such as the average billing amount required to treat each medical condition by grouping the data based on Medical Condition.
 
 **Task 2: Web Application for Medical Condition Prediction**
 Architecture:
 
-Flask Application:
+1) Flask Application:
 Built a web application using the Flask framework, a lightweight WSGI web application framework in Python.
 
-User Input:
+2) User Input:
 Users can enter their Name, Gender, and Blood Group into a web form provided by the application.
 
-Data Processing:
+3) Data Processing:
 Processed the user input when the form is submitted by the user.
 
-Prediction:
+4) Prediction:
 Utilized the insights gained from Task 1 to predict the Medical Condition that the user is at most risk for based on their input.
 
-Storage:
+5) Storage:
 Stored all the data entered by users (Name, Gender, Blood Group, and predicted Medical Condition) in a separate CSV file at the backend for further analysis or reference.
 
 **Note:**
