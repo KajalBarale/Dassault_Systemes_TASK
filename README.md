@@ -3,8 +3,7 @@
 This project was completed as part of an assignment provided by Dassault Systèmes.
 
 **Task 1: Analysis of Healthcare Data**
-**
-Architecture:**
+**Architecture:**
 
 1) Data Loading:
 Utilized Python's pandas library to load the healthcare data from a CSV file into a DataFrame.
@@ -19,7 +18,7 @@ Created visualizations using the seaborn library to analyze the correlation betw
 Calculated additional insights such as the average billing amount required to treat each medical condition by grouping the data based on Medical Condition.
 
 **Task 2: Web Application for Medical Condition Prediction**
-Architecture:
+**Architecture:**
 
 1) Flask Application:
 Built a web application using the Flask framework, a lightweight WSGI web application framework in Python.
